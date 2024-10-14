@@ -5,17 +5,6 @@ body {
     background-attachment: fixed;
 }
 
-.container-boton{
-    display: flex;
-    justify-content: end;
-}
-.boton button{
-    background-color: rgb(231, 126, 161);
-    color: black;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
 h1 {
     text-align: center;
     font-size: 60px;
@@ -44,3 +33,31 @@ B{
     justify-content: space-around; /* Espacio uniforme entre las imágenes */
     margin-top: 10px;
 }
+
+.Suscribirse{
+    
+    width: 670px;
+    text-align: center;
+    margin-left: 28%;
+    text-shadow: 
+        -1px -1px 0px rgb(233, 233, 232),
+         1px -1px 0px rgb(233, 233, 232),
+        -1px  1px 0px rgb(233, 233, 232),
+         1px  1px 0px rgb(233, 233, 232);
+}
+form {
+    width: 600px;
+    background-color: pink;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.btn{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+
