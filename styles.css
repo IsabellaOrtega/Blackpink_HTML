@@ -4,11 +4,22 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.container-boton{
+    display: flex;
+    justify-content: end;
+}
+.boton button{
+    background-color: rgb(231, 126, 161);
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 h1 {
     text-align: center;
     font-size: 60px;
     font-weight: 700;
-    padding-top: 10px;
     padding-bottom: 25px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     
